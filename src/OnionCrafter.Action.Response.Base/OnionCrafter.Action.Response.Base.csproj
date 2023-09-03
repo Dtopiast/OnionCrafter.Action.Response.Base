@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <Description>Provides a lightweight framework for handling action responses and messages, enabling efficient management of response data and messages in .NET 7 projects</Description>
+	  <VersionPrefix>1.0.0</VersionPrefix>
+
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <IncludeSymbols>True</IncludeSymbols>
+	  <Copyright>Copyright 2023 Dtopiast</Copyright>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
+	  <FileVersion>$(VersionPrefix)</FileVersion>
+	  <Version>$(VersionPrefix)</Version>
+	  <Authors>Dtopiast</Authors>
+	  <RepositoryType>git</RepositoryType>
+
+	  <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageIcon>JustLogo.png</PackageIcon>
+    <PackageTags>utilities, data-management, action-responses, message-handling, .net-7, lightweight-framework, mediatr, extension</PackageTags>
+    <RepositoryUrl>https://github.com/Dtopiast/OnionCrafter.Action.Response.Base</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Images\JustLogo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
