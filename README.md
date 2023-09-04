@@ -18,9 +18,9 @@ OnionCrafter.Action.Response.Base es una librería de .NET 7 diseñada para simp
 
 ## Características
 
-- Añade funcionalidades de auditabilidad a tus clases.
-- Simplifica la creación de objetos utilizando el patrón Builder.
-- Facilita el uso de patrones de diseño como Prototype y Template Method.
+- Facilita la creación y gestión de respuestas de acciones.
+- Proporciona una estructura clara y coherente para las respuestas de acciones y sus datos.
+- Compatible con la arquitectura Onion y otros enfoques arquitectónicos.
 
 ## Requisitos
 
